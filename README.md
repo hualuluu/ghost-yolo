@@ -1,5 +1,7 @@
 # ghost-yolo
-这里是ghost-yolo.cfg文件,默认用过darknet做过yolo训练
+这里是ghost-yolo.cfg文件,默认大家用过darknet做过yolo训练，所以训练步骤不详述
+
+
 参考 https://github.com/AlexeyAB/darknet/files/3997987/ghostnet.cfg.txt
 
 设定了2layers ,也可以自行设计3layers
