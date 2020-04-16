@@ -2,13 +2,16 @@
 # ghost-yolo to caffe
 添加了darknet2caffe.py
 
-caffe版本再04.16弄通了。是基于前辈们的工作做的粗糙的改动，因为没时间继续钻研，做系统性的封装，所以目前还需要手动修改cfg才可以转成功weights。（我是菜鸟）
+caffe版本在今天弄通了。
+是基于前辈们的工作做的粗糙的改动，因为没时间继续钻研，做系统性的封装，所以目前还需要手动修改cfg才可以转成功weights。（我是菜鸟）
+【大家可以通过调试每一层的输出，来判断转的模型有没有问题，调试的过程还蛮有趣的，可以尝试一下】
 
 1.需要用到的文件添加了两个
 darknet to caffe:https://github.com/marvis/pytorch-caffe-darknet-convert 
+
 caffe-yolo：https://github.com/ChenYingpeng/caffe-yolov3
 
-2.具体操作在这里：https://blog.csdn.net/weixin_38715903/article/details/105550619
+2.如何转caffe 具体操作在这里：https://blog.csdn.net/weixin_38715903/article/details/105550619
 
 3.我这边就是提供一下我修改过的文件，我自己是能跑通的。
 
